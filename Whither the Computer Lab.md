@@ -17,7 +17,7 @@ I analyze some stuff. And show some pictures.
 
 ![LoginsByDate](https://github.com/haynesie/Whither/blob/master/Images/ConsoleLoginsByDate.png "Logins by Date")
 
-![LoginsByHour](https://github.com/haynesie/Whither/blob/master/Images/ConsoleLoginsByHour.png"Logins By Hour")
+![LoginsByHour](https://github.com/haynesie/Whither/blob/master/Images/ConsoleLoginsByHour.png "Logins By Hour")
 
 ![logins](https://github.com/haynesie/Whither/blob/master/Images/WorkstationLoginsByMachine.png "Logins by Machine")
 ![crashes](https://github.com/haynesie/Whither/blob/master/Images/SystemCrashesByMachine.png "Crashes By Machine")
