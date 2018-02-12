@@ -29,11 +29,20 @@ ohandel  pts/9        10.40.19.101     Sun Feb 11 18:27   still logged in
 
 These login files create a very authoritative source of data regarding use of the computers, as they are maintained by the systems themselves neither require nor experience intervention by humans. 
 
-Once the log files are collected from each of the 32 systems, the data is cleaned of non-administrative logins and is converetd to a comma-separated-value formatted file.  The pandas and matplotlib libraries of the Python programming language are then used to process these .csv files to create visulization of the login data. 
+Once the log files are collected from each of the 32 systems, the data is cleaned of non-administrative logins and is convereted to a comma-separated-value formatted file.  The pandas and matplotlib libraries of the Python programming language are then used to process these .csv files to create visulization of the login data. 
 
 
-####  Stakeholders 
-People who hold the steaks. 
+####  Permissions and Stakeholders 
+
+Under typical circumstances, system login data is regulated very little.  It is freely available on most systems to anyone with a user account.  That said, for one who might not have access to such systems, permissions from adminstrators would likely be necessary, as well as approval from people charged with overseeing FERPA-protected information.  Ultimately, the owners of the resource (say, the Computer Science Department) would have to be consulted, and someone of authority such as a department Chairperson would need give permissions for an account to be granted in order for someone to access the data unaided by systems administrator. 
+
+Benefactors of the outcome of such data exploration include, but are not limited to:
+
+* Students - who hopefully gain from a facility that better suits their needs
+* Faculty - for similar reasons as students
+* Staff - who gain from optimization of efforts and maintenance
+* Administrators - who gain confidence in support/spending on a resource
+
 
 #### Analysis
 
