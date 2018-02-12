@@ -7,12 +7,26 @@ Of regular concern to all at a University are the related costs and effectivenes
 Current states of funding, pedagogy, technology and people all play a part in the evaluation of a resource. The rapidity of change is felt most significantly in fields such as Computer Science, where not only is the technology on which it is based under continuous revision, the methods and the expectations of professionals in the post-educational sector often out-pace the teaching of new students in the subject.  
 
 As a result, opinions on the use and form of a Computer Lab abound.  What had for a long time been a given, the cost and untenable effort to maintain one's own computer for scientific purposes, is no longer a fact - people not only own their own computers, but often own several (not including "devices" that are themselves computers with more power than those that used to exist in labs).  It is the case today that most undergraduates have or intend to purchase a personal computing device for use during their school careers.  It is this "new" reality that puts into question the need for a Computer Lab at all.  
+
 It is not the purpose of this study to to determine whether Computer Labs should still be maintained on campuses, but rather to look at utilization of a facility through actual data.   What is developed here is a proposal for gathering information that can be used to inform both spending choices and relevant long-term design.  
 
 
 ####  Methodology
-To explore 
+In this scenario, we seek to answer a couple of practical guestions about our lab: "When is the lab being used the most?" and "Is our design optimal for fulfulling student and instructional needs?"  From our answers to these questions we would hope to make changes to our policies to improve our utilization of the lab. 
 
+To make this a data project we will need to collect data; fortunately, computers themselves generate copious amounts of it.  One piece of low-lying fruit is the computers' login data.  In our particular lab, we have 32 Linux-based worksations arranged in a grid of four rows of eight systems, each labled by row numbered 1 through 4, and by column A-H.  Each computer maintains its own login file which can be accessed by the unix command, `last1`. 
+
+```
+$last -20
+dliu55   pts/15       10.40.121.131    Sun Feb 11 21:09 - 21:11  (00:01)    
+lxhu     pts/3        10.40.85.252     Sun Feb 11 21:09   still logged in   
+kchao2   pts/14       10.40.104.254    Sun Feb 11 20:46   still logged in   
+dliu55   pts/10       10.40.121.131    Sun Feb 11 19:14 - 19:15  (00:00)    
+ahuan38  pts/10       10.40.156.105    Sun Feb 11 18:43 - 18:56  (00:13)    
+arickfo  pts/3        10.40.193.180    Sun Feb 11 18:37 - 21:01  (02:24)    
+ohandel  pts/9        10.40.19.101     Sun Feb 11 18:27   still logged in
+...
+```
 
 ####  Stakeholders 
 People who hold the steaks. 
