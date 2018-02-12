@@ -14,19 +14,23 @@ It is not the purpose of this study to to determine whether Computer Labs should
 ####  Methodology
 In this scenario, we seek to answer a couple of practical guestions about our lab: "When is the lab being used the most?" and "Is our design optimal for fulfulling student and instructional needs?"  From our answers to these questions we would hope to make changes to our policies to improve our utilization of the lab. 
 
-To make this a data project we will need to collect data; fortunately, computers themselves generate copious amounts of it.  One piece of low-lying fruit is the computers' login data.  In our particular lab, we have 32 Linux-based worksations arranged in a grid of four rows of eight systems, each labled by row numbered 1 through 4, and by column A-H.  Each computer maintains its own login file which can be accessed by the unix command, `last1`. 
+To make this a data project we will need to collect data; fortunately, computers themselves generate copious amounts of it.  One piece of low-lying fruit is the computers' login data.  In our particular lab, we have 32 Linux-based worksations arranged in a grid of four rows of eight systems, each labled by row numbered 1 through 4, and by column A-H.  Each computer maintains its own login file which can be accessed by the unix command, `last`: 
 
 ```
 $last -20
 dliu55   pts/15       10.40.121.131    Sun Feb 11 21:09 - 21:11  (00:01)    
 lxhu     pts/3        10.40.85.252     Sun Feb 11 21:09   still logged in   
-kchao2   pts/14       10.40.104.254    Sun Feb 11 20:46   still logged in   
 dliu55   pts/10       10.40.121.131    Sun Feb 11 19:14 - 19:15  (00:00)    
 ahuan38  pts/10       10.40.156.105    Sun Feb 11 18:43 - 18:56  (00:13)    
 arickfo  pts/3        10.40.193.180    Sun Feb 11 18:37 - 21:01  (02:24)    
 ohandel  pts/9        10.40.19.101     Sun Feb 11 18:27   still logged in
 ...
 ```
+
+These login files create a very authoritative source of data regarding use of the computers, as they are maintained by the systems themselves neither require nor experience intervention by humans. 
+
+Once the log files are collected from each of the 32 systems, the data is cleaned of non-administrative logins and is converetd to a comma-separated-value formatted file.  The pandas and matplotlib libraries of the Python programming language are then used to process these .csv files to create visulization of the login data. 
+
 
 ####  Stakeholders 
 People who hold the steaks. 
