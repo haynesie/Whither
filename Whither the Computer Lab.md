@@ -73,7 +73,7 @@ From these we see that systems that are positioned futher back (in row 4, which 
 
 #### Interpretation and Conclusions
 
-We can see that there are definitely peak hours in computer lab, which appear to fall about mid-afternoon, which may reflect when students have free time after classes.  We also see that there are preferences for systems on the left side of the lab, which may indicate that the other machines are not as convenient (perhaps due to a lack of an isle). 
+We can see that there are definitely peak hours in computer lab, which appear to fall about mid-afternoon and may reflect when students have free time after classes.  We also see that there are preferences for systems on the left side of the lab, which may indicate that the other machines are not as convenient (perhaps due to a lack of an isle). 
 
 Also, it would be good to restate that less than half of the logins to the systems were from within the lab.  This brings up other questions, such as whether it would be more beneficial to have a greater online (remote) emphasis than a phsycial lab presence. 
 
