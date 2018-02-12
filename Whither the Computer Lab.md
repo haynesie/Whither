@@ -31,6 +31,7 @@ These login files create a very authoritative source of data regarding use of th
 
 Once the log files are collected from each of the 32 systems, the data is cleaned of non-administrative logins and is convereted to a comma-separated-value formatted file.  The pandas and matplotlib libraries of the Python programming language are then used to process these .csv files to create visulization of the login data. 
 
+(The associated jupyter notebook containing code for this project is located [here](http://localhost:8888/notebooks/Whither%20Methodology.ipynb). 
 
 ####  Permissions and Stakeholders 
 
@@ -48,7 +49,7 @@ Benefactors of the outcome of such data exploration include, but are not limited
 
 From our collection of 32 lab machine login files, we gained a set of 1141 login instances over the period of nine days, of which 531 (46.5%) were console logins. (Note the use of the term "console" - in this exercise we are paying particular attention to the local physical use of the machine, as opposed to those who may be logging in to systems remotely.) 
  
-In the first part of the analysis, we take a look at the times of logins into the systems.  In our particular lab, we see that logins are modest up until 11:00 am, after which levels of computer console activity more than double until around 4:00pm, after which they taper back to modest levels again by 6:00pm.  By 8:00pm, computer console usage is very sparse.  
+In the first part of the analysis, we take a look at the times of logins into the systems.  In our particular lab, we see that logins are modest up until 11:00 am, after which levels of computer console activity more than double until around 5:00pm, after which they drop down to modest levels again by 6:00pm.  By 8:00pm, computer console usage is very sparse.  
 
 
 ![LoginsByHour](https://github.com/haynesie/Whither/blob/master/Images/ConsoleLoginsByHour.png "Logins By Hour")
