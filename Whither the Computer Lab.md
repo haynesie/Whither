@@ -58,8 +58,12 @@ Another view of lab computer data is that of total daily use of systems.  The to
 Combining the information from the above graphs, we might conclude that the most optimal times for the lab to be open, for instance, would be from 11:00pm - 8:00pm daily, exclusive of Saturdays.   This would help in staffing planning decisions, for instance.  (One might also note several times, such as Mondays at midday, where extra staff might be needed.) 
 
 
+Another view into system usage that may be of benefit is information on usage relative to location.  Such information may inform choices of lab design.  In the graph below, a heatmap representation of login frequency demostrates which seats by geographic location are more frequented (a nice feature of the grid design of the lab):
 
 ![logins](https://github.com/haynesie/Whither/blob/master/Images/WorkstationLoginsByMachine.png "Logins by Machine")
+
+In this case, we are also able to convey information about systems crashes, which can help adminstrators understand what features of the lab or its usage may relate to system downtime:
+
 ![crashes](https://github.com/haynesie/Whither/blob/master/Images/SystemCrashesByMachine.png "Crashes By Machine")
 
 
