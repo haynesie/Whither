@@ -46,7 +46,7 @@ Benefactors of the outcome of such data exploration include, but are not limited
 
 #### Analysis
 
-In the first part of the analysis, we take a look at actual usage of the systems.  In our particular lab, we see that logins are modest up until 11:00 am, after which levels of computer console activity more than double until around 4:00pm, after which they taper back to modest levels again by 6:00pm.  By 8:00pm, computer console usage is very sparse.  (Note the use od the term "console" - in this exercise we are paying particular attention to the local physical use of the machine, as opposed to those who may be logging in to systems remotely.) 
+In the first part of the analysis, we take a look at actual usage of the systems.  In our particular lab, we see that logins are modest up until 11:00 am, after which levels of computer console activity more than double until around 4:00pm, after which they taper back to modest levels again by 6:00pm.  By 8:00pm, computer console usage is very sparse.  (Note the use of the term "console" - in this exercise we are paying particular attention to the local physical use of the machine, as opposed to those who may be logging in to systems remotely.) 
 
 ![LoginsByHour](https://github.com/haynesie/Whither/blob/master/Images/ConsoleLoginsByHour.png "Logins By Hour")
 
@@ -66,8 +66,9 @@ In this case, we are also able to convey information about systems crashes, whic
 
 ![crashes](https://github.com/haynesie/Whither/blob/master/Images/SystemCrashesByMachine.png "Crashes By Machine")
 
+From these we see that systems that are positioned futher back (in row 4, which happens to be near the entrance/exit) and the left side near column A (which is nearest an isle), are not only more popular, but more experiences more crashes during our data period.   But a correlation between usage and crashes may not exist - the most used system, while crashing more often, did not crash the most, and the second-most used system experienced no crashes at all.  What could be at play here?
 
 #### Interpretation and Conclusions
-We need more data. 
 
+From data set we have at hand (a collection period of nine days), it would be foolhardy to take an immediate course of action, but what the exploration above shows is that usage trends can be illuminated with these methods, and over a larger observation period inform administrative descisions regarding Computer lab needs. 
 
