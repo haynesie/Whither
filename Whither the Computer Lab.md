@@ -2,7 +2,7 @@
 ### by Keven Haynes
 
 #### Introduction
-Of regular concern to all at a University are the related costs and effectiveness of spending and investment in material resources.  Laboratory space is always at a heightened level of scrutiny: it not only consumes materials and personel to maintain the facility, but the real estate it occupies forces the stakeholders to make a long-term commitment on an often scarce resource. 
+Of regular concern to all at a University are the related costs and effectiveness of spending and investment in material resources.  Laboratory space is always at a heightened level of scrutiny: it not only consumes materials and personel to maintain the facility, but the real estate it occupies forces the stakeholders to make a long-term commitment on an increasingly scarce commodity. 
 
 Current states of funding, pedagogy, technology and people all play a part in the evaluation of a resource. The rapidity of change is felt most significantly in fields such as Computer Science, where not only is the technology on which it is based under continuous revision, the methods and the expectations of professionals in the post-educational sector often out-pace the teaching of new students in the subject.  
 
@@ -46,11 +46,17 @@ Benefactors of the outcome of such data exploration include, but are not limited
 
 #### Analysis
 
-I analyze some stuff. And show some pictures. 
+In the first part of the analysis, we take a look at actual usage of the systems.  In our particular lab, we see that logins are modest up until 11:00 am, after which levels of computer console activity more than double until around 4:00pm, after which they taper back to modest levels again by 6:00pm.  By 8:00pm, computer console usage is very sparse.  (Note the use od the term "console" - in this exercise we are paying particular attention to the local physical use of the machine, as opposed to those who may be logging in to systems remotely.) 
 
 ![LoginsByHour](https://github.com/haynesie/Whither/blob/master/Images/ConsoleLoginsByHour.png "Logins By Hour")
 
+Another view of lab computer data is that of total daily use of systems.  The total computer lab usage for the first nine days of February are shown in the histogram below:
+
+
 ![LoginsByDate](https://github.com/haynesie/Whither/blob/master/Images/ConsoleLoginsByDate.png "Logins by Date")
+
+Combining the information from the above graphs, we might conclude that the most optimal times for the lab to be open, for instance, would be from 11:00pm - 8:00pm daily, exclusive of Saturdays.   This would help in staffing planning decisions, for instance.  (One might also note several times, such as Mondays at midday, where extra staff might be needed.) 
+
 
 
 ![logins](https://github.com/haynesie/Whither/blob/master/Images/WorkstationLoginsByMachine.png "Logins by Machine")
