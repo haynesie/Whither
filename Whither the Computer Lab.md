@@ -31,7 +31,7 @@ These login files create a very authoritative source of data regarding use of th
 
 Once the log files are collected from each of the 32 systems, the data is cleaned of non-administrative logins and is convereted to a comma-separated-value formatted file.  The pandas and matplotlib libraries of the Python programming language are then used to process these .csv files to create visulization of the login data. 
 
-(The associated jupyter notebook containing code for this project is located [here](https://github.com/haynesie/Whither/blob/master/Whither%20Methodology.ipynb).
+(The associated jupyter notebook containing code for this project is located [here](https://github.com/haynesie/Whither/blob/master/Whither%20Methodology.ipynb).)
 
 ####  Permissions and Stakeholders 
 
